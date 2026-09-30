@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./portfolio-media.css";
 import "./responsive.css";
 import BackgroundCanvas from "@/components/BackgroundCanvas";
 import SiteChrome from "@/components/SiteChrome";

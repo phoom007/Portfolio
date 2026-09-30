@@ -56,9 +56,9 @@ export default function HomeExperience() {
           <div className="portrait-rgb rgb-one" /><div className="portrait-rgb rgb-two" />
           <div className="profile-frame">
             <div className="profile-placeholder">
-              <span className="profile-initial">P</span>
+              <img className="profile-real" src="/portfolio/profile/phuwanat.webp" alt="ภูวนาท ทานาลาด" />
               <div className="profile-scan" />
-              <small>YOUR PHOTO<br />COMING NEXT</small>
+              <small>PHUWANAT TANALAD<br />SAKON NAKHON · TH</small>
             </div>
             <div className="profile-caption"><b>PHUWANAT TANALAD</b><span>aka PHOOM</span></div>
           </div>
@@ -79,6 +79,13 @@ export default function HomeExperience() {
           <span>PLAN</span><i>✦</i><span>DESIGN</span><i>✦</i><span>BUILD</span><i>✦</i><span>IMPROVE</span><i>✦</i>
         </div>
       </div>
+
+      <section className="proof-strip section-shell" data-palette="violet" aria-label="ผลงานโดยสรุป">
+        <div><strong>SILVER</strong><span>I-New Gen Award</span></div>
+        <div><strong>350+</strong><span>ทีมที่ดูแลหลังบ้าน</span></div>
+        <div><strong>20+</strong><span>รุ่นน้องที่ติวบัญชี</span></div>
+        <div><strong>3.68</strong><span>GPAX · เกียรตินิยมอันดับหนึ่ง</span></div>
+      </section>
 
       <section id="intro" className="manifesto section-shell" data-palette="violet">
         <motion.div className="section-index" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>01 / วิธีคิด</motion.div>
@@ -106,7 +113,7 @@ export default function HomeExperience() {
           <div className="section-index">02 / ผลงานที่เลือก</div>
           <div>
             <p className="eyebrow">SELECTED WORK</p>
-            <h2>บางสิ่งที่ผม<br />สร้างขึ้นมาคนเดียว</h2>
+            <h2>บางสิ่งที่ผม<br />ลงมือทำจริง</h2>
           </div>
           <Link className="round-link" href="/work">ดูทั้งหมด <ArrowUpRight /></Link>
         </div>
@@ -157,9 +164,10 @@ export default function HomeExperience() {
 
       <section className="education-feature section-shell" data-palette="green">
         <div className="education-card">
-          <div className="ku-logo-wrap">
-            <img src="https://www.ku.ac.th/web-html/assets/images/identity/flag_sign.svg" alt="ตรามหาวิทยาลัยเกษตรศาสตร์" />
-          </div>
+          <a className="ku-logo-wrap" href="https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C:KU_SubLogo.png" target="_blank" rel="noreferrer" aria-label="ดูที่มาของตรามหาวิทยาลัยเกษตรศาสตร์">
+            <img src="/portfolio/brand/ku-sublogo.webp" alt="ตรามหาวิทยาลัยเกษตรศาสตร์" />
+            <small className="ku-logo-credit">Nagarindra · CC BY-SA 4.0</small>
+          </a>
           <div className="education-copy">
             <span className="project-eyebrow">KASETSART UNIVERSITY · KU CSC</span>
             <h2>บริหารธุรกิจบัณฑิต<br /><em>เกียรตินิยมอันดับหนึ่ง</em></h2>

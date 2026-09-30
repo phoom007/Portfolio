@@ -17,14 +17,14 @@ export default function AboutPage() {
 
       <section className="about-intro section-shell">
         <div className="about-portrait">
-          <div className="about-photo-placeholder"><span>P</span><small>พื้นที่สำหรับรูปของภูมิ</small></div>
+          <div className="about-photo-placeholder"><img src="/portfolio/profile/phuwanat.webp" alt="ภูวนาท ทานาลาด" /><small>PHUWANAT TANALAD · PHOOM</small></div>
           <div className="about-photo-tag">PHUWANAT · 2026</div>
         </div>
         <div className="about-story">
           <span className="eyebrow">สวัสดีครับ ผมภูมิ</span>
           <h2>ผมเป็นคนที่ต้องเห็นภาพรวม<br />ก่อนเริ่มลงมือทำ</h2>
           <p>เวลาสนใจอะไร ผมจะเรียนรู้ได้ต่อเนื่องและอยู่กับงานหน้าคอมได้นาน ผมชอบแยกโจทย์ออกเป็นส่วน ๆ วางลำดับให้ตัวเองเข้าใจ แล้วค่อยเลือกเครื่องมือที่เหมาะสม</p>
-          <p>สิ่งที่ผมสนใจจึงไม่ได้หยุดอยู่แค่การบริหาร แต่ขยายไปถึงกราฟิก วิดีโอ โค้ด ระบบอัตโนมัติ การวิเคราะห์ข้อมูล ตลาดหุ้น และความปลอดภัยของระบบ เพราะผมอยากรู้ว่าแต่ละศาสตร์จะช่วยทำให้งานดีขึ้นได้อย่างไร</p>
+          <p>สิ่งที่ผมสนใจจึงไม่ได้หยุดอยู่แค่การบริหาร แต่ขยายไปถึงกราฟิก วิดีโอ การทำคอนเทนต์ โค้ด ระบบอัตโนมัติ การวิเคราะห์ข้อมูล ตลาดหุ้น และความปลอดภัยของระบบ เพราะผมอยากรู้ว่าแต่ละศาสตร์จะช่วยทำให้งานดีขึ้นได้อย่างไร</p>
           <blockquote>“ผมอยากอยู่ในสภาพแวดล้อมที่เปิดกว้างพอ ให้ได้ลองคิด ลองทำ และเห็นว่าตัวเองพัฒนาไปได้ไกลแค่ไหน”</blockquote>
           <Link href="/resume" className="text-link">ดูโปรไฟล์แบบพิมพ์ได้ <ArrowRight /></Link>
         </div>
@@ -33,7 +33,10 @@ export default function AboutPage() {
       <section className="education-section section-shell">
         <div className="section-index">01 / การศึกษา</div>
         <div className="education-timeline-card">
-          <div className="education-logo-block"><img src="https://www.ku.ac.th/web-html/assets/images/identity/flag_sign.svg" alt="ตรามหาวิทยาลัยเกษตรศาสตร์" /></div>
+          <a className="education-logo-block" href="https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C:KU_SubLogo.png" target="_blank" rel="noreferrer" aria-label="ดูที่มาของตรามหาวิทยาลัยเกษตรศาสตร์">
+            <img src="/portfolio/brand/ku-sublogo.webp" alt="ตรามหาวิทยาลัยเกษตรศาสตร์" />
+            <small className="ku-logo-credit">Nagarindra · CC BY-SA 4.0</small>
+          </a>
           <div className="education-main">
             <span>มหาวิทยาลัยเกษตรศาสตร์ · มก.ฉกส.</span>
             <h2>บริหารธุรกิจบัณฑิต<br />สาขาวิชาการจัดการ</h2>
@@ -43,6 +46,7 @@ export default function AboutPage() {
             <div><Award /><span><small>เกียรตินิยม</small><b>อันดับหนึ่ง</b></span></div>
             <div><GraduationCap /><span><small>GPAX</small><b>3.68</b></span></div>
             <div><Clock3 /><span><small>สำเร็จการศึกษาใน</small><b>3 ปีครึ่ง</b></span></div>
+            <a className="education-proof-link" href="/portfolio/education/academic-merit.webp" target="_blank" rel="noreferrer"><Award /><span><small>หลักฐานการศึกษา</small><b>ดูเกียรติบัตรเรียนดี</b></span></a>
           </div>
         </div>
       </section>
