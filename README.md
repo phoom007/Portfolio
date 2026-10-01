@@ -11,7 +11,7 @@ npm run dev
 
 ## Build & Deploy (Cloudflare Workers)
 
-ปลายทาง: [https://phuwanart.phoomgamertv3.workers.dev](https://phuwanart.phoomgamertv3.workers.dev)
+ปลายทางปัจจุบัน: [https://phuwanart.phoomgamertv3.workers.dev](https://phuwanart.phoomgamertv3.workers.dev)
 
 1. เข้าสู่ระบบ Cloudflare (ทำครั้งแรก):
 ```bash
