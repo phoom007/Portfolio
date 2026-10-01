@@ -6,17 +6,17 @@ import BackgroundCanvas from "@/components/BackgroundCanvas";
 import SiteChrome from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://phuwanart.phoomgamertv3.workers.dev"),
+  metadataBase: new URL("https://portfolio.phoom007.workers.dev"),
   title: { default: "ภูวนาท ทานาลาด — Portfolio", template: "%s — ภูวนาท ทานาลาด" },
   description: "พอร์ตโฟลิโอของภูวนาท ทานาลาด นักบริหารรุ่นใหม่ที่สนใจการวางแผน ออกแบบ สร้างระบบ และเทคโนโลยี",
   keywords: ["ภูวนาท ทานาลาด", "Portfolio", "บริหารธุรกิจ", "Kasetsart University", "Horplus"],
   alternates: {
-    canonical: "https://phuwanart.phoomgamertv3.workers.dev",
+    canonical: "https://portfolio.phoom007.workers.dev",
   },
   openGraph: {
     title: "ภูวนาท ทานาลาด — Portfolio",
     description: "พอร์ตโฟลิโอของภูวนาท ทานาลาด นักบริหารรุ่นใหม่ที่สนใจการวางแผน ออกแบบ สร้างระบบ และเทคโนโลยี",
-    url: "https://phuwanart.phoomgamertv3.workers.dev",
+    url: "https://portfolio.phoom007.workers.dev",
     siteName: "Phuwanat Tanalad Portfolio",
     locale: "th_TH",
     type: "website",
